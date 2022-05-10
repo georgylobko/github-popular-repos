@@ -1,0 +1,64 @@
+.header {
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  width: 120px;
+  height: 40px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  width: 60px;
+  padding: 0 10px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.activeTab {
+  background: rgba(0, 255, 255, 0.25);
+}
+
+.selectLanguage {
+  display: block;
+  margin-top: 5px;
+}
+
+.item {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.itemHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemTitle {
+  margin: 0;
+}
+
+.starBlock {
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.starIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.starred {
+  fill: #cfcf0c;
+}
